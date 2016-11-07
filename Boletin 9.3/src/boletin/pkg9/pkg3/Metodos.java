@@ -18,10 +18,10 @@ public class Metodos {
         base = Double.parseDouble(JOptionPane.showInputDialog("Introduce la base."));
         altura = Double.parseDouble(JOptionPane.showInputDialog("Introduce la altura."));
         
-        do{
+        while(base<=0|altura<=0){
             base = Double.parseDouble(JOptionPane.showInputDialog("Introduce la base otra vez.\nEsta vez mayor que cero."));
             altura = Double.parseDouble(JOptionPane.showInputDialog("Introduce la alturaotra vez.\nEsta vez mayor que cero."));
-        }while(base>0|altura>0);
+        }
         
         JOptionPane.showMessageDialog(null, "El area del rectangulo de base " + base + "cm y altura " + altura + "cm es igual a " + base*altura + "cm^2");
     }

@@ -6,7 +6,7 @@ public class Boletin93 {
         
         Metodos obj = new Metodos();
         
-        obj.calculos();
+        obj.calculos();             
     }
     
 }
