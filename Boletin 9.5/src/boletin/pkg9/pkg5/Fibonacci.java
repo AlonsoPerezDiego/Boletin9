@@ -2,10 +2,10 @@ package boletin.pkg9.pkg5;
 
 public class Fibonacci {
     
-    public void sucesionFib(int rep){
-        int n1 = 0;
-        int n2 = 1;
-        int num = 1;
+    public void sucesionFib(long rep){
+        double n1 = 0;
+        double n2 = 1;
+        double num = 1;
         System.out.println("Sucesion de Fibonacci:");
         System.out.println(n1);
         num++;

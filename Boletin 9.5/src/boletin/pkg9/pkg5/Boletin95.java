@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 public class Boletin95 {
 
     public static void main(String[] args) {
-        int seleccion = Integer.parseInt(JOptionPane.showInputDialog("Introduce 1 para la sucesio de pares.\nIntroduce 2 para una sucesión que alterna entre positivos y negativos.\nIntroduce 3 para la sucesion de Fibonacci.\nIntroduce cualquier otro número para cerrar."));
+        long seleccion = Integer.parseInt(JOptionPane.showInputDialog("Introduce 1 para la sucesio de pares.\nIntroduce 2 para una sucesión que alterna entre positivos y negativos.\nIntroduce 3 para la sucesion de Fibonacci.\nIntroduce cualquier otro número para cerrar."));
         
         Pares par = new Pares();
         NegPos suces = new NegPos();
