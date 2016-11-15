@@ -23,7 +23,7 @@ public class Boletin95 {
         while(seleccion==3){
             aureo.sucesionFib(Integer.parseInt(JOptionPane.showInputDialog("Introduce el numero de digitos que quieres visualizar:")));
             seleccion = Integer.parseInt(JOptionPane.showInputDialog("Introduce 1 para la sucesio de pares.\nIntroduce 2 para una sucesión que alterna entre positivos y negativos.\nIntroduce 3 para la sucesion de Fibonacci.\nIntroduce cualquier otro número para cerrar."));
-        while(seleccion<1&&seleccion>3){
+        if(seleccion<1&&seleccion>3){
             JOptionPane.showMessageDialog(null, "Adios.");
         }
     }
