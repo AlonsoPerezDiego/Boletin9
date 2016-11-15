@@ -18,7 +18,7 @@ public class NegPos {
                 num++;
             }
             while(n>0){
-                 System.out.println(n);
+                 System.out.println(" " + n);
                 n = n * -1 - 1;
                 num++;
             }
