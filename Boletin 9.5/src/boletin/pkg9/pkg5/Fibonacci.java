@@ -2,7 +2,7 @@ package boletin.pkg9.pkg5;
 
 public class Fibonacci {
     
-    public void sucesionFib(long rep){
+    public void sucesionFib(double rep){
         double n1 = 0;
         double n2 = 1;
         double num = 1;

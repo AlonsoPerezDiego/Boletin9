@@ -2,7 +2,7 @@ package boletin.pkg9.pkg5;
 
 public class NegPos {
     
-    public void sucesion(int rep){
+    public void sucesion(double rep){
         int n = -1;
         int num = 1;
         System.out.println("Sucesión que alterna entre positivos y negativos:");
